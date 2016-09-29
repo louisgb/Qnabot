@@ -1,0 +1,24 @@
+v0.1
+
+A Q&A bot for Python knowledge
+
+Procedure for building up the bot:
+* Prepare a training set of Python knowledge by crawling docs.python.org/2/
+** Run url2text.py, which generates raw_text.txt. (The visited URLs are also pickled for restarting.)
+
+* Break texts into 'sentences' by cutting at 'comma/period+whitespace' or end-of-line. Process each sentence by stemming, etc. 
+** Run text2sentence.py, which generates sentences.txt.
+
+* Use word2vec to map words in sentences.txt to vectors of some dimension
+** Run word2vec_train.py, which saves the model to word2vec_model.sav
+
+* Prepare a Q&A dataset, each item being a question-answer pair. Multiple questions can have the same answer. (Let k = # of answers)
+
+* Define some syntactic rules to preprocess questions and convert them to a set of words; map those words to vectors; add up the vectors to get an input vector for each question. Continue training the word2vec model on these questions. 
+** Use the same procedure as to process sentences. 
+
+* Train a neural network for question-input-vector -> k-dim answer vector
+** Run NN_train.py, which saves the NN to NN.pickle.
+
+* Use the NN to predict answers given a question. 
+** Run NN_predict.py. 

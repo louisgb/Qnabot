@@ -1,0 +1,50 @@
+1	Python is case sensitive. 
+2	Python uses # to denote line comments. 
+3	Python uses backslash (\) to break lines. 
+4	Python uses semicolon (;) to separate sentences in one line. 
+5	Python "variables" are all names bound to objects. Variables are created the first time an object is assigned to it by =. 
+6	Use "del" to destroy an object (and make the bound name undefined.).
+7	Boolean constants: True and False (initial capitalized)
+8	Blank statement: pass
+9	Check variable type: type(var)
+10	Check all methods of an object: dir(var)
+11	Representing infinity: float(‘Inf’)
+12	For-loop: "for i in iterable: \n\t [block] \n else: \n\t [block]" (or "for i in iterable: statement" in one line if no "else" needed)
+13	While-loop: "while condition: \n\t [block]"
+14	Exit loop: break. Skip to next iteration: continue (same as C)
+15	If-statement: "if condition: \n\t [block] \n elif condition: \n\t [block] \n else: \n\t [block]
+16	Conditional expression: x = 1 if cond else 2 # (like “x = cond?1:2” in C)
+17	Arithmetic "mod": %
+18	Arithmetic power ("A to the Bth"): A**B
+19	Arithmetic integer division: //
+20	Logical comparison: >, <, >=, <=, ==, !=
+21	Logical not-and-or: not, and, or
+22	Indexing: x[index]
+23	Defining a function: def function(a, b=1, c=2): \n\t '''This is DocString'''\n\t return a+b+c
+24	Using module: "import sys; print sys.argv[0]" or "from sys import argv; print argv[0]" or "import sys as s; print s.argv[0]"
+25	Making module: put .py file in a directory included in PYTHONPATH environment variable, or put it in the same directory as "other .py", then it can be imported as a module by "other .py" using the file name (without .py) as module name.
+26	Run a python command (rather than a file) from shell: python -c command
+27	Get command line parameters: sys.argv[n] # argv[1] is the first argument; argv[0] is the name of the file
+28	Run shell command: os.system("some_command with args")
+29	Formatted output: print ‘%5s %10.3f %d’ % (string1, float1, int1)
+30	Opening a file: f=open(‘filename’,’r’) # or ‘w’, ‘r+’, ‘a’ (for write, read&write, append)
+31	Closing a file: f.close()
+32	Read a file (line by line): f.readline() # return a string including trailing \n
+33	Relocating IO pointer in a file: f.seek(n, i) # i = 0 (beginning) or 1 (current) or 2 (end), n = number of characters to shift (positive n means forward, negative means backward)
+34	Write to a file: print >>f, var # don't forget the comma
+35	Splitting a string: 'hello world'.split() # return ['hello', 'world']; split can have a parameter as delimiter
+36	Debugging: import pdb; pdb.set_trace()
+37	Numpy - creating a zero array: mat = np.zeros((3, 3), float) # similar for np.ones
+38	Numpy - creating a numpy array from a text file: mat = np.loadtxt(file) # file is a string of filename or a file handle
+39	Numpy - creating a numpy array from a list: mat = np.array([[1.1, 1.2], [2.1, 2.2]], dtype=float)
+40	Numpy - matrix multiplication: mat3 = np.dot(mat1, mat2) # mat? are all numpy arrays; valid also for 1D arrays (vectors)
+41	Numpy - cross product of vectors: v3 = np.cross(v1, v2)
+42	Numpy - max element of an array: np.amax(mat)
+43	Numpy - index of max element of an array: np.argmax(mat)
+44	Numpy - reshaping an array: mat2 = np.reshape(mat, (2,3), order=’C’) #or order=’F’; ‘C’ is default; if second argument is -1 then reshape to a vector
+45	Numpy - get size of array: np.size(A, dim) # return total # of elements if dim not given; return # of rows if dim = 0; # of columns if dim = 1
+46	Numpy - concatenate matrices: np.append(mat1, mat2, axis) # append top-down if axis=0; left-right if axis=1, as a vector if axis not given
+47	Parsing URL: import urlparse; url = some_url; res_tuple = urlparse.urlparse(url)
+48	Reading HTML from URL: import urllib; furl = urllib.urlopen('http://whatever.com/index.html') #furl behaves like a file flow
+49	Parsing HTML: Use beautiful soup 4 (module bs4). 
+50	Parsing XML: Use module xml.etree.ElementTree

@@ -1,0 +1,85 @@
+each line be number repres correspond answer index follow by question
+be python case sensit
+how to comment in python
+how to break statement into multipl line
+how to write multipl statement in one line
+how to assign variabl
+how to destroy object
+what be boolean constant in python
+what doe pass mean
+what doe type do
+what doe dir do
+how to repres infin
+what for loop in python
+what while loop in python
+what doe break do
+what if statement in python
+what condit express
+how to do mod oper
+how to do power oper
+how to do integ divis
+how to compar two number
+what be logic binari oper
+how to index list
+how to defin function
+how to import modul
+how to make modul
+how to run python command from shell
+how to get command line paramet
+how to run shell command within python code
+how to write format output
+how to open file for input output
+how to close file
+how to read file
+how to reloc io pointer in file
+how to write to file
+how to split string
+how to debug
+how to creat zero array
+how to creat array from text file
+how to creat numpi array from list
+how to do matrix multipl
+how to do cross product
+how to find max element in array
+how to find index of max element in array
+how to reshap array
+how to get size of array
+how to concaten two matric
+how to pars url
+how to read html from url
+how to pars html
+how to pars xml
+what symbol doe python use for comment
+how to break line into sever line
+what use to separ sever statement in one line
+how to defin variabl
+how to remov variabl
+how be true and fals repres in python
+what doe pass do
+how to check variabl type
+how to list all method of object
+what syntax of for loop
+what syntax of while loop
+what doe continu do
+what syntax of if statement
+how to write condit statement in one line
+how to calcul remaind
+how to do floor divis
+what not equal to
+how be not repres
+how to use modul
+how to connect two matric
+be python case insensit
+how comment in python
+how to make assign
+what be del use for
+what use for true and fals
+how to repres blank statement
+how to check avail method of object
+how to exit loop
+replac if with condit
+how be equal repres
+how be and repres
+what doe del do
+how to jump out of loop
+how be or repres
