@@ -16,19 +16,20 @@ class file_iterable(object):
         for line in open(self.filename):
                 yield line.split()
 
-sentences = file_iterable('sentences.txt')
-sentences_Qs = file_iterable('sentences_Qs.txt')
-# model = Word2Vec(sentences, min_count=5, size=100, workers=8)
-model = Word2Vec.load('word2vec_model.sav')
-# model.build_vocab(sentences_Qs, keep_raw_vocab=True)
-model.train(sentences_Qs)
-model.save('word2vec_model_plusQs.sav')
+if __name__ == '__main__':
+    sentences = file_iterable('sentences.txt')
+    sentences_Qs = file_iterable('sentences_Qs.txt')
+    # model = Word2Vec(sentences, min_count=5, size=100, workers=8)
+    model = Word2Vec.load('word2vec_model.sav')
+    # model.build_vocab(sentences_Qs, keep_raw_vocab=True)
+    model.train(sentences_Qs)
+    model.save('word2vec_model_plusQs.sav')
 
-# model.save('word2vec_model.sav')
-
-# for line in open('sentences.txt'):
-#     print line.split()
-#     model.build_vocab(line.split())
-#     model.train(line.split())
+    # model.save('word2vec_model.sav')
+    
+    # for line in open('sentences.txt'):
+    #     print line.split()
+    #     model.build_vocab(line.split())
+    #     model.train(line.split())
 
 

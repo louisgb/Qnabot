@@ -1,0 +1,113 @@
+welcom thi be
+document for python
+rc last updat jun
+part of document
+what new in python
+or all what new document sinc
+keep thi under your pillow
+describ syntax and languag element
+python setup and usag
+how to use python on differ platform
+in depth document on specif topic
+instal python modul
+instal from python packag index other sourc
+distribut python modul
+publish modul for instal by other
+extend and embed
+tutori for programm
+refer for programm
+frequent ask question with answer
+indic and tabl
+global modul index
+quick access to all modul
+all function class term
+most import term explain
+search thi document
+complet tabl of content
+list all section and subsect
+histori and licens of python
+download thi document
+enter search term or modul class or function name
+last updat on jun
+to download archiv contain all document for
+thi version of python in one of variou format follow one of link
+in thi tabl number in tabl be size of download
+file in megabyt
+thi archiv contain all content in
+chm file be made avail in window section
+on python download page
+unix user download tar bz archiv thi
+be bzip tar archiv and be handl in usual way use tar
+and bzip program infozip unzip
+program be use to handl zip archiv if desir
+tar bz archiv provid best compress and fastest download
+window user use zip archiv sinc thi be
+customari on thi platform thi be creat on unix use
+infozip zip program
+if you have comment or suggest for python
+document pleas send email to
+python and thi document be
+copyright python softwar foundat all right reserv
+copyright beopen com all right reserv
+copyright corpor for nation research initi all right
+copyright sticht mathematisch centrum all right reserv
+see histori and licens for complet licens and permiss inform
+histori and licens
+python be creat in earli by guido van rossum at sticht
+mathematisch centrum cwi see in netherland as
+successor of languag call abc guido remain python princip author
+although it includ mani contribut from other
+in guido continu hi work on python at corpor for nation
+research initi cnri see in reston
+virginia where he releas sever version of softwar
+in may guido and python core develop team move to beopen com to
+form beopen pythonlab team in octob of same year pythonlab
+team move to digit creation now zope corpor see
+in python softwar foundat psf see
+be form non profit organ creat
+specif to own python relat intellectu properti zope corpor be
+sponsor member of psf
+all python releas be open sourc see for open
+sourc definit histor most but not all python releas have also
+been gpl compat tabl below summar variou releas
+gpl compat doesn mean thi we re distribut python under gpl all
+python licens unlik gpl let you distribut modifi version without
+make your chang open sourc gpl compat licens make it possibl to
+combin python with other softwar thi be releas under gpl other
+thank to mani outsid volunt who have work under guido direct to
+make thi releas possibl
+beopen python open sourc licens agreement version
+thi section be incomplet but grow list of licens and acknowledg
+for third parti softwar incorpor in python distribut
+random modul includ code base on download from
+verbatim comment from origin code
+socket modul use function getaddrinfo and
+getnameinfo which be code in separ sourc file from wide
+sourc for fpectl modul includ follow notic
+sourc code for md modul contain follow notic
+asynchat and asyncor modul contain follow notic
+cooki modul contain follow notic
+trace modul contain follow notic
+uu modul contain follow notic
+xmlrpclib modul contain follow notic
+test epol contain follow notic
+select and contain follow notic for kqueue interfac
+file python dtoa which suppli function dtoa and
+strtod for convers of doubl to and from string be deriv
+from file of same name by david gay current avail
+from origin file as retriev on
+march contain follow copyright and licens
+modul hashlib posix ssl crypt use
+openssl librari for ad perform if made avail by
+oper system addit window and mac os instal for
+python may includ copi of openssl librari so we includ copi
+of openssl licens here
+pyexpat extens be built use includ copi of expat
+sourc unless build be configur with system expat
+ctype extens be built use includ copi of libffi
+sourc unless build be configur with system libffi
+zlib extens be built use includ copi of zlib
+sourc if zlib version found on system be too old to be
+use for build
+distribut python modul legaci version
+for applic thi requir data compress function in thi modul

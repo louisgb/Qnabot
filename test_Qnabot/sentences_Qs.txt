@@ -1,0 +1,27 @@
+each line be number repres correspond answer index follow by question
+be python case sensit
+how to comment in python
+how to break statement into multipl line
+how to write multipl statement in one line
+how to assign variabl
+how to destroy object
+what be boolean constant in python
+what doe pass mean
+what doe type do
+what doe dir do
+what symbol doe python use for comment
+how to break line into sever line
+what use to separ sever statement in one line
+how to defin variabl
+how to remov variabl
+how be true and fals repres in python
+what doe pass do
+how to check variabl type
+how to list all method of object
+be python case insensit
+how comment in python
+how to make assign
+what be del use for
+what use for true and fals
+how to repres blank statement
+how to check avail method of object

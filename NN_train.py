@@ -45,5 +45,5 @@ nn_model = gbNN.gbNN(100, 100, 50)
 print 'Training'
 nn_model.train(X, y, regul=0.1, verbose=True, maxiter=1000)
 
-print 'Saving trained NN to disk'
-cPickle.dump(nn_model, open('NN.pickle', 'w'))
+# print 'Saving trained NN to disk'
+# cPickle.dump(nn_model, open('NN.pickle', 'w'))

@@ -1,0 +1,10 @@
+1	Python is case sensitive. 
+2	Python uses # to denote line comments. 
+3	Python uses backslash (\) to break lines. 
+4	Python uses semicolon (;) to separate sentences in one line. 
+5	Python "variables" are all names bound to objects. Variables are created the first time an object is assigned to it by =. 
+6	Use "del" to destroy an object (and make the bound name undefined.).
+7	Boolean constants: True and False (initial capitalized)
+8	Blank statement: pass
+9	Check variable type: type(var)
+10	Check all methods of an object: dir(var)

@@ -1,0 +1,4 @@
+import os
+os.system('PYTHONPATH=$HOME/learning/QnA_robot:$PYTHONPATH')
+import Qnabot
+

@@ -1,0 +1,31 @@
+# Each line is a number representing the corresponding answer index, followed by the question. 
+1 Is Python case sensitive?
+2 How to comment in python?
+3 How to break a statement into multiple lines?
+4 How to write multiple statements in one line?
+5 How to assign variables?
+6 How to destroy an object?
+7 What are the boolean constants in python?
+8 What does pass mean?
+9 What does type do?
+10     What does dir do?
+1      Is Python case-sensitive?
+2      What symbol does python use for comment?
+3      How to break a line into several lines?
+4      What should I use to separate several statements in one line?
+5      How to define variables?
+6      How to remove a variable?
+7      How are true and false represented in python?
+8      What does pass do?
+9      How to check variable type?
+10     How to list all methods of an object?
+1      Is Python case insensitive?
+2      How should I comment in python?
+3      
+4      
+5      How to make assignment?
+6      What is del used for?
+7      What should I use for true and false?
+8      How to represent a blank statement?
+9      
+10     How to check available methods of an object?

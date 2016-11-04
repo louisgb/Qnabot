@@ -164,7 +164,7 @@ class gbNN(object):
 
         #-- print debug info
         if verbose:
-            yp = self.predict(X)
+            yp = self.predict(X)+1
             print 'Training accuracy: %.2f%%'\
                 %(np.mean(np.array(yp==y, dtype=float))*100)
 

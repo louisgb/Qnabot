@@ -16,7 +16,7 @@ def url2text(url, fileout, countlimit=1, visited=None, BFS=False):
     f = open(fileout, 'a')
     # ftmp = open('tmp.txt', 'w')
     
-    if visited==None:
+    if visited is None:
         visited = set([url])
     else:
         visited.add(url)

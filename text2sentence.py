@@ -20,7 +20,7 @@ def process_line(line):
     newline = re.sub(u'[^\s]+@[^\s]+', u' ', newline)
     #-- keep only letters
     newline = re.sub(u'[^a-zA-Z]', u' ', newline)
-    lineout = ''
+    lineout = [] #''
     for word in newline.split():
         if len(word)>1 and word not in words_exlude:
             if word in ['is','are','was','were','am']:
@@ -34,11 +34,12 @@ def process_line(line):
 
             word = PorterStemmer().stem_word(word)
             # if word[-1]=='s': word = word[:-1]
-            lineout += word+' '
-    return lineout[:-1]
+            # lineout += word+' '
+            lineout.append(word)
+    return ' '.join(lineout) #lineout[:-1]
     
 
-def text2sentences(filein, fileout, len_thres=5):
+def text2sentence(filein, fileout, len_thres=5):
     """A wrapper that runs process_line on every line of a file.
 
     filein: input file name string
@@ -60,8 +61,8 @@ def text2sentences(filein, fileout, len_thres=5):
 if __name__=='__main__':
     # filein = 'raw_text.txt'
     # fileout = 'sentences.txt'
-    # text2sentences(filein, fileout)
+    # text2sentence(filein, fileout)
     
     filein = 'raw_text_Qs.txt'
     fileout = 'sentences_Qs.txt'
-    text2sentences(filein, fileout, 0)
+    text2sentence(filein, fileout, 0)

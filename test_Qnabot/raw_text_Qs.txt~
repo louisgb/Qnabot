@@ -1,0 +1,201 @@
+# Each line is a number representing the corresponding answer index, followed by the question. 
+1 Is Python case sensitive?
+2 How to comment in python?
+3 How to break a statement into multiple lines?
+4 How to write multiple statements in one line?
+5 How to assign variables?
+6 How to destroy an object?
+7 What are the boolean constants in python?
+8 What does pass mean?
+9 What does type do?
+10     What does dir do?
+11     How to represent infinity?
+12     What's for-loop in python?
+13     What's while loop in python?
+14     What does break do?
+15     What's if statement in python?
+16     What's conditional expression?
+17     How to do mod operation?
+18     How to do power operation?
+19     How to do integer division?
+20     How to compare two numbers?
+21     What are logical binary operators?
+22     How to index a list?
+23     How to define a function?
+24     How to import a module?
+25     How to make a module?
+26     How to run a python command from shell?
+27     How to get command line parameters?
+28     How to run shell commands within python code?
+29     How to write formatted output?
+30     How to open a file for input/output?
+31     How to close a file?
+32     How to read a file?
+33     How to relocate IO pointer in a file?
+34     How to write to a file?
+35     How to split a string?
+36     How to debug?
+37     How to create a zero array?
+38     How to create an array from a text file?
+39     How to create a numpy array from a list?
+40     How to do matrix multiplication?
+41     How to do cross product?
+42     How to find the max element in an array?
+43     How to find the index of the max element in an array?
+44     How to reshape an array?
+45     How to get the size of an array?
+46     How to concatenate two matrices?
+47     How to parse a URL?
+48     How to read HTML from URL?
+49     How to parse HTML?
+50     How to parse XML?
+1      Is Python case-sensitive?
+2      What symbol does python use for comment?
+3      How to break a line into several lines?
+4      What should I use to separate several statements in one line?
+5      How to define variables?
+6      How to remove a variable?
+7      How are true and false represented in python?
+8      What does pass do?
+9      How to check variable type?
+10     How to list all methods of an object?
+11     
+12     What's the syntax of for-loop?
+13     What's the syntax of while-loop?
+14     What does continue do?
+15     What's the syntax of if statement?
+16     How to write conditional statement in one line?
+17     How to calculate remainder?
+18     
+19     How to do floor division?
+20     What's not equal to?
+21     How is not represented?
+22     
+23     
+24     How to use a module?
+25     
+26     
+27     
+28     
+29     
+30     
+31     
+32     
+33     
+34     
+35     
+36     
+37     
+38     
+39     
+40     
+41     
+42     
+43     
+44     
+45     
+46     How to connect two matrices?
+47     
+48     
+49     
+50     
+1      Is Python case insensitive?
+2      How should I comment in python?
+3      
+4      
+5      How to make assignment?
+6      What is del used for?
+7      What should I use for true and false?
+8      How to represent a blank statement?
+9      
+10     How to check available methods of an object?
+11     
+12     
+13     
+14     How to exit a loop?
+15     (replace if with condition)
+16     
+17     
+18     
+19     
+20     How is equal represented?
+21     How is and represented?
+22     
+23     
+24     
+25     
+26     
+27     
+28     
+29     
+30     
+31     
+32     
+33     
+34     
+35     
+36     
+37     
+38     
+39     
+40     
+41     
+42     
+43     
+44     
+45     
+46     
+47     
+48     
+49     
+50     
+1      Is Python case-insensitive?
+2      
+3      
+4      
+5      
+6      What does del do?
+7      
+8      
+9      
+10     
+11     
+12     
+13     
+14     How to jump out of a loop?
+15     
+16     
+17     
+18     
+19     
+20     
+21     How is or represented?
+22     
+23     
+24     
+25     
+26     
+27     
+28     
+29     
+30     
+31     
+32     
+33     
+34     
+35     
+36     
+37     
+38     
+39     
+40     
+41     
+42     
+43     
+44     
+45     
+46     
+47     
+48     
+49     
+50     
